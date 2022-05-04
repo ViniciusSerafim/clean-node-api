@@ -1,5 +1,5 @@
 function teste () {
-  console.log('teste sddsadsdsasd')
+  console.log('teste sddsa')
   return {}
 }
 
