@@ -4,13 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "alo": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard"
-    ]
   },
   "repository": {
     "type": "git",
