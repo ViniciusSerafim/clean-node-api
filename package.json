@@ -9,12 +9,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.js": ["standard"]
-  },
-  "lint-staged": {
-    "*.js": [
-      "standard"
-    ]
+    "*.js": ["standard --fix", "git add"]
   },
   "husky": {
     "hooks": {
