@@ -1,5 +1,5 @@
 function teste () {
-  console.log('sadas')
+  console.log('teste mudanda')
   return {}
 }
 
